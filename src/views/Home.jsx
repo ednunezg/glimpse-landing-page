@@ -5,6 +5,9 @@ import EmailListSubscribe from '../components/EmailListSubscribe'
 import UniversalTilt from 'universal-tilt.js';
 import GetStartedButton from '../components/GetStartedButton';
 
+import howToCardPreview from '../assets/img/how-to-card-preview.png'
+import scanMeLabel from '../assets/img/scan-me-label.png'
+import averyCard from '../assets/img/avery-card.png'
 class Home extends React.Component {
 
   componentDidMount() {
@@ -62,13 +65,13 @@ class Home extends React.Component {
                   <img
                     alt="card-preview-label"
                     className="title-card-scan-me-label"
-                    src={require('../assets/img/scan-me-label.png')}
+                    src={scanMeLabel}
                   />
                   <img
                     alt="card-preview"
                     style={{width: "100%"}}
                     className="title-card no-select"
-                    src={require('../assets/img/avery-card.png')}
+                    src={averyCard}
                   />
                 </div>
               </div>
@@ -104,7 +107,7 @@ class Home extends React.Component {
             <div className="col-lg-4 py-5">
               <img 
                 className="how-this-works-img no-select"
-                src={require('../assets/img/how-to-card-preview.png')}
+                src={howToCardPreview}
                 alt="how-this-works-img"
               />
             </div>

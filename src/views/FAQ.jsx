@@ -1,5 +1,7 @@
 import React from 'react';
 
+import faqArContent from '../assets/img/faqs/faq-ar-content.jpg'
+
 class FAQ extends React.Component {
   render() {
     return(
@@ -10,7 +12,7 @@ class FAQ extends React.Component {
 
         <Entry
           question="What type of content can be displayed on the augmented reality view?"
-          image={require('../assets/img/faqs/faq-ar-content.jpg')}
+          image={faqArContent}
         >
          The Card Design page supports adding icons to your social media pages / emails, a text label with your name and title, as well as media content. Supported media content includes images and video.
         </Entry>

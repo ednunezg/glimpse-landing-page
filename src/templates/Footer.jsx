@@ -1,10 +1,12 @@
 import React from 'react';
 
+import logoTransparentWhite from '../assets/img/logo-transparent-white.png'
+
 class Footer extends React.Component {
   render() {
     return (
       <div id="footer">
-        <img className="footer-logo" src={require('../assets/img/logo-transparent-white.png')} height="25" alt="" />
+        <img className="footer-logo" src={logoTransparentWhite} height="25" alt="" />
         <div className="footer-socials">
         <a href="https://www.facebook.com/glimpsecard" className="footer-social-link"><i className="fab fa-lg fa-facebook"></i></a>
           <a href="https://twitter.com/glimpsecard" className="footer-social-link"><i className="fab fa-lg fa-twitter"></i></a>

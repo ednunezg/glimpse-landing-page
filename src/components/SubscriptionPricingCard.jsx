@@ -1,6 +1,8 @@
 import React from 'react';
 import GetStartedButton from './GetStartedButton';
 
+import pricingArrow from '../assets/img/pricing-arrow.png'
+
 class SubscriptionPricingCard extends React.Component {
   constructor(props) {
     super(props);
@@ -21,7 +23,7 @@ class SubscriptionPricingCard extends React.Component {
         }}>
           <img
             alt="arrow"
-            src={require('../assets/img/pricing-arrow.png')}
+            src={pricingArrow}
             style={{ height: "80px", marginLeft: "100px"}}
           />
           <p style={{fontSize: "15px"}}>

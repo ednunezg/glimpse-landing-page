@@ -3,12 +3,14 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import * as Constants from "../constants"
 
+import logoTransparentWhite from '../assets/img/logo-transparent-white.png'
+
 class Header extends React.Component {
   render() {
     return (
       <nav id="header" className="navbar navbar-expand-md navbar-light d-flex">
         <a className="navbar-brand mr-auto" href="/">
-          <img src={require('../assets/img/logo-transparent-white.png')} height="30" alt="" />
+          <img src={logoTransparentWhite} height="30" alt="" />
         </a>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
