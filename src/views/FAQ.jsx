@@ -70,6 +70,7 @@ class Entry extends React.Component {
         <div className="row justify-content-center">
           <div className="faq-entry-img-wrap col-lg-6 col-md-8 col-sm-10" >
             <img
+              alt="faq-img"
               src={this.props.image}
               style={{width: "80%", borderRadius: "10px", border: "1px solid black"}}
             />
